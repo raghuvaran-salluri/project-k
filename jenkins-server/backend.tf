@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "test-cicd-tf-eks"
+    bucket         = "sayantan-cicd-tf-eks"
     key            = "jenkins/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
