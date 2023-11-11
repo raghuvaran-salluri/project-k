@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "s3_bucket" {
   bucket = "sayantan-cicd-tf-eks" # change this
 }
 
-resource "aws_dynamodb_table" "terraform_lock" {
+resource "aws_dynamodb_table" "terraform_lock-1" {
   name         = "terraform-lock"
   billing_mode = "PAY_PER_REQUEST"
   hash_key     = "LockID"
