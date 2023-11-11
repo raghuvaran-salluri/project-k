@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "s3_bucket" {
 }
 
 resource "aws_dynamodb_table" "terraform_lock-1" {
-  name         = "terraform-lock"
+  name         = "terraform-lock-1"
   billing_mode = "PAY_PER_REQUEST"
   hash_key     = "LockID"
 
